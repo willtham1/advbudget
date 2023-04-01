@@ -11,7 +11,7 @@ const breakdown1 = [
   },
 ];
 
-export default function DashboardTable() {
+export default function DashboardExpense() {
   return (
     <div className="px-4 sm:px-6 lg:px-8">
       <div className="-mx-4 mt-8 flow-root sm:mx-0">
@@ -22,7 +22,7 @@ export default function DashboardTable() {
                 scope="col"
                 className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0"
               >
-                Income
+                Expenses
               </th>
               <th
                 scope="col"
